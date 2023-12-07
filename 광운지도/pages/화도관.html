@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title> 화도관 </title>
+    </head>
+    <body>
+        <div class="all">
+        <center> 
+            <h1 align = "left"> 화도관 </h1>
+        </center>
+        <hr color=black size="5">
+    
+        <div class="container">
+            <div class="img">
+                <img src="화도관.jpg" border="3" vspace="20" hspace="20" width="600" height="800" align="left">
+            </div>
+            <div class="table">
+
+                <table border="1">
+                    <tr>
+                        <th>관련 학과, 시설</th>
+                        <td>대학본부, 건축학과, 건축공학과</td>
+                    </tr>
+                    <tr>
+                        <th>건물 층수</th>
+                        <td>지하 1층, 지상 6층</td>
+                    </tr>
+                    <tr>
+                        <td>B1F</td>
+                        <td>기계실, 변전실</td>
+                    </tr>
+                    <tr>
+                        <td>1F</td>
+                        <td rowspan="2">행정사무실</td>
+                    </tr>
+                    <tr>
+                        <td>2F</td>
+                    </tr>
+                    <tr>
+                        <td>3F</td>
+                        <td rowspan="2">강의실</td>
+                    </tr>
+                    <tr>
+                        <td>4F</td>
+                    </tr>
+                    <tr>
+                        <td>5F</td>
+                        <td rowspan="2">교수연구실</td>
+                    </tr>
+                    <tr>
+                        <td>6F</td>
+                    </tr>
+                </table>
+                <div>
+                    <br>
+                </div>
+                <table border="3">
+                    <tr>
+                        <td>흔히 학교 사진에서 나오는 비마상<br>
+                            뒤로 나오는 건물이 이 건물이다.<br><br>
+                            입학증명서 혹은 재학증명서 등의 서류부터 <br>
+                            수험응시생들의 입학상담, 창업 관련 문의 등등 <br>
+                            필요하다싶으면 화도관으로 가는 것이 맞다.<br><br>
+                            SKY캐슬의 촬영지로도 사용됐다.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+    <style>
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 0 auto;
+            max-width: 1800px; 
+
+        }
+	    .img img{
+            max-width: 90%;
+            height: auto; 
+            display: block;
+            margin-left:0px;
+	    }
+       
+
+
+        .img, .table{
+            flex-basis: 1; 
+            
+        }
+        .img1{
+            padding-top:10px;
+            margin-left:0px;
+        }
+        .table{
+            padding-top: 20px;
+            margin-right:0px;
+            text-align: center;
+
+        }
+
+
+        .all{
+            margin-right: 90px;
+            margin-left: 90px;
+            margin-top:30px;
+        }
+
+
+
+        @media screen and (max-width: 700px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</html>

@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title> 복지관 </title>
+    </head>
+    <body>
+        <div class="all">
+            <center>
+                <h1 align = "left"> 복지관 </h1>
+            </center>
+            <hr color=black size="5">
+            
+            
+            <div class="container">
+                    
+                <div class="img">
+                    <img src="복지관.jpg" border="3" vspace="20" hspace="20" width="800" height="600" align="left">
+                </div>
+                    <div class="table">
+                    <table border="1">
+                        <tr>
+                            <th>관련 학과, 시설</th>
+                            <td>학생활동 지원시설,  학생복지시설</td>
+                        </tr>
+                        <tr>
+                            <th>건물 층수</th>
+                            <td>지상 5층</td>
+                        </tr>
+                        <tr>
+                            <td>1F</td>
+                            <td>진입로, 동아리방</td>
+                        </tr>
+                        <tr>
+                            <td>2F</td>
+                            <td>학생복지처, 보건실</td>
+                        </tr>
+                        <tr>
+                            <td>3F</td>
+                            <td>졸업준비회, 함지마루(학식당), <br>
+                                학생회실, 남학생 휴게실
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4F</td>
+                            <td rowspan="2">동아리방</td>
+                        </tr>
+                        <tr>
+                            <td>5F</td>
+                        </tr>
+                    </table>
+                    <div>
+                        <br>
+                    </div>
+                    <table border="3">
+                        <tr>
+                            <td>학교의 교문으로 1층 공간은 진입로로 연결된다.<br><br>
+                                2,3층은 양 사이드가 중앙 통로로 연결되어있지만 <br>
+                                4,5층은 옥의관처럼 완공 후 증축했기 때문에 따로따로 논다.<br><br>
+                                동아리나 대외활동 관련 포스터를 붙이려는 <br>
+                                학생이나 외부인은 여기서 허가 도장을 받아야 한다. <br><br>
+                                3층에는 함지마루라는 학식당이 있는데, <br>
+                                함지마루에서 조금 더 나아가면 <br>
+                                학생회실과 남학생 휴게실이 있다.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 0 auto;
+            max-width: 1800px; 
+        }
+
+	    .img img{
+            max-width: 90%;
+            height: auto; 
+            display: block;
+            margin-left:0px;
+	    }
+       
+        .img, .table{
+            flex-basis: 1; 
+            
+        }
+        
+        .img{
+            padding-top:10px;
+            margin-left:0px;
+        }
+        .table{
+            padding-top: 20px;
+            margin-right:0px;
+            text-align: center;
+
+        }
+
+
+        .all{
+            margin-right: 90px;
+            margin-left: 90px;
+            margin-top:30px;
+        }
+
+
+
+        @media screen and (max-width: 700px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</html>

@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title> 옥의관 </title>
+    </head>
+    <body>
+        <div class="all">  
+            <center>
+                <h1 align = "left"> 옥의관 </h1>
+            </center>
+            <hr color=black size="5">
+
+            <div class="container">
+
+                <div class="img">
+                    <img src="옥의관.jpg" border="3" vspace="20" hspace="20" width="800" height="600" align="left">
+                </div>
+
+                <div class="table">
+                    <table border="1">
+                        <tr>
+                            <th>관련 학과, 시설</th>
+                            <td>자연과학대학</td>
+                        </tr>
+                        <tr>
+                            <th>건물 층수</th>
+                            <td>지하 1층, 지상 9층</td>
+                        </tr>
+                        <tr>
+                            <td>B1F</td>
+                            <td>연구실</td>
+                        </tr>
+                        <tr>
+                            <td>1F</td>
+                            <td>스터디 카페</td>
+                        </tr>
+                        <tr>
+                            <td>2F</td>
+                            <td rowspan="8">연구실, 특성화실, 학과사무실, <br>
+                                실험실습실, 실험기자재실, <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3F</td>
+                        </tr>
+                        <tr>
+                            <td>4F</td>
+                        </tr>
+                        <tr>
+                            <td>5F</td>
+                        </tr>
+                        <tr>
+                            <td>6F</td>
+                        </tr>
+                        <tr>
+                            <td>7F</td>
+                        </tr>
+                        <tr>
+                            <td>8F</td>
+                        </tr>
+                        <tr>
+                            <td>9F</td>
+                        </tr>
+                    </table>
+                    <div>
+                        <br>
+                    </div>
+                    <table border="3">
+                        <tr>
+                            <td>완공 이후 8층을 증축했기 때문에 <br>
+                                엘리베이터가 7층까지만 운행한다.<br><br>
+                                이전에는 지하에서 매점이 운영되었었지만 <br>
+                                현재는 매점은 비마관으로 이동되었으며, <br>
+                                현재 지하는 연구실로서 사용되고 있다. <br><br>
+                                1층은 자그마한 스터디 카페가 존재하는데 <br>
+                                정말 말 그대로 조그마하기도 하고 <br>
+                                바로 문 옆에 있어서 공부를 하기에는 겨울에는 정말 춥다.<br><br>
+                                8층에 여학생 휴게실이 위치해있다.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <style>
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 0 auto;
+            max-width: 1800px; 
+
+        }
+	    .img img{
+            max-width: 90%;
+            height: auto; 
+            display: block;
+            margin-left:0px;
+	    }
+       
+
+
+        .img, .table{
+            flex-basis: 1; 
+            
+        }
+        .img1{
+            padding-top:10px;
+            margin-left:0px;
+        }
+        .table{
+            padding-top: 20px;
+            margin-right:0px;
+            text-align: center;
+
+        }
+
+
+        .all{
+            margin-right: 90px;
+            margin-left: 90px;
+            margin-top:30px;
+        }
+
+
+
+        @media screen and (max-width: 700px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</html>

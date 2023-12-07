@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <title> 참빛관 </title>
+    </head>
+    <body>
+        <div class="all">
+            <center>
+                <h1 align = "left"> 참빛관 </h1>
+            </center>
+            <hr color=black size="5">
+            <div class="container">
+
+                <div class="img">
+                    <img src="참빛관.jpg" border="3" vspace="20" hspace="20" width="600" height="800" align="left">
+                </div>
+                <div class="table">
+                    <table border="1">
+                        <tr>
+                            <th>관련 학과, 시설</th>
+                            <td>전자정보공과대학, 공과대학</td>
+                        </tr>
+                        <tr>
+                            <th>건물 층수</th>
+                            <td>지하 3층, 지상 10층</td>
+                        </tr>
+                        <tr>
+                            <td>B3F</td>
+                            <td>주차장, 중앙감시실, 발전기실</td>
+                        </tr>
+                        <tr>
+                            <td>B2F</td>
+                            <td>주차장, 창고</td>
+                        </tr>
+                        <tr>
+                            <td>B1F</td>
+                            <td rowspan="3">강의실</td>
+                        </tr>
+                        <tr>
+                            <td>1F</td>
+                        </tr>
+                        <tr>
+                            <td>2F</td>
+                        </tr>
+                        <tr>
+                            <td>3F</td>
+                            <td rowspan="8">연구실, 교수실, 과사무실, <br>
+                                세미나실</td>
+                        </tr>
+                        <tr>
+                            <td>4F</td>
+                        </tr>
+                        <tr>
+                            <td>5F</td>
+                        </tr>
+                        <tr>
+                            <td>6F</td>
+                        </tr>
+                        <tr>
+                            <td>7F</td>
+                        </tr>
+                        <tr>
+                            <td>8F</td>
+                        </tr>
+                        <tr>
+                            <td>9F</td>
+                        </tr>
+                        <tr>
+                            <td>10F</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table border="3">
+                        <tr>
+                            <td>위치상으로는 새빛관,비마관과 이웃해 있으며, <br>
+                                바로 옆부분에는 잔디로 이루어진 <br>
+                                쉼터가 조성되어 있다. <br><br>
+                                1층에는 인터넷 카페가 있는데 <br>
+                                일단 장부에 기입해두고 사용해야 하지만 <br>
+                                지키고 있는 사람이 있는 것도 아니라서 <br>
+                                보통 자리가 비면 알아서 사용한다.<br><br>
+                                옥상에 매우 조그마한 정원이 마련되어 있다. <br><br>
+                                실질적으로 광운대에서 가장 높은 장소이므로 <br>
+                                일몰 광경이 매우 괜찮은 곳.<br><br>
+                                광운대학교 자체가 좁은 편이긴 하지만 <br>
+                                참빛관과 누리관 사이의 거리는 꽤 머니 <br>
+                                시간표를 짤 때 유의하도록 하자.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <style>
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 0 auto;
+            max-width: 1800px; 
+
+        }
+	    .img img{
+            max-width: 90%;
+            height: auto; 
+            display: block;
+            margin-left:0px;
+	    }
+       
+
+
+        .img, .table{
+            flex-basis: 1; 
+            
+        }
+        .img{
+            padding-top:10px;
+            margin-left:0px;
+        }
+        .table{
+            padding-top: 20px;
+            margin-right:0px;
+            text-align: center;
+
+        }
+
+
+        .all{
+            margin-right: 90px;
+            margin-left: 90px;
+            margin-top:30px;
+        }
+
+
+
+        @media screen and (max-width: 700px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</html>

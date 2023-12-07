@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title> 새빛관 </title>
+    </head>
+    <body>
+        <div class="all"> 
+            <center>
+                <h1 align = "left"> 새빛관 </h1>
+            </center>
+            <hr color=black size="5">
+        
+            <div class="container">
+
+                <div class="img">
+                    <img src="새빛관.jpg" border="3" vspace="20" hspace="20" width="600" height="800" align="left">
+                </div>
+                
+                <div class="table">
+                    <table border="1">
+                        <tr>
+                            <th>관련 학과, 시설</th>
+                            <td>소프트웨어융합대학</td>
+                        </tr>
+                        <tr>
+                            <th>건물 층수</th>
+                            <td>지하 1층, 지상 9층</td>
+                        </tr>
+                        <tr>
+                            <td>B1F</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>1F</td>
+                            <td>코딩 컨설팅룸</td>
+                        </tr>
+                        <tr>
+                            <td>2F</td>
+                            <td>소프트웨어학부 강의실</td>
+                        </tr>
+                        <tr>
+                            <td>3F</td>
+                            <td>컴퓨터정보공학부 강의실</td>
+                        </tr>
+                        <tr>
+                            <td>4F</td>
+                            <td>소프트웨어 융합대학 및 각 학과 사무실, <br>
+                                학생회실</td>
+                        </tr>
+                        <tr>
+                            <td>5F</td>
+                            <td rowspan="5">연구실</td>
+                        </tr>
+                        <tr>
+                            <td>6F</td>
+                        </tr>
+                        <tr>
+                            <td>7F</td>
+                        </tr>
+                        <tr>
+                            <td>8F</td>
+                        </tr>
+                        <tr>
+                            <td>9F</td>
+                        </tr>
+                    </table>
+                    <div>
+                        <br>
+                    </div>
+                    <table border="3">
+                        <tr>
+                            <td>9층 구조로 이루어진 도서관 이었으나 <br>
+                                현재는 내부 인테리어 공사 진행 후 <br>
+                                소프트웨어융합대학 강의실, 연구실, 사무실 등이 <br>
+                                위치하고 있다.<br><br>
+                                지상 1층에는 테이블 및 의자가 있고 <br>
+                                우측엔 운영시간 중 찾아가면 조교님들께 <br>
+                                코딩을 하는데 도움을 받을 수 있는 <br>
+                                코딩 컨설팅룸이 있다.<br><br>
+                                80주년 기념관이 완공 된 이후 내부 도서를 전부 이관하고 <br>
+                                학생공모전으로 선정된 이름 "새빛관"으로 바꾸었으며, <br>
+                                소프트웨어융합대학 전용 건물이 되었다.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <style>
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 0 auto;
+            max-width: 1800px; 
+
+        }
+	    .img img{
+            max-width: 90%;
+            height: auto; 
+            display: block;
+            margin-left:0px;
+	    }
+       
+
+
+        .img, .table{
+            flex-basis: 1; 
+            
+        }
+        .img1{
+            padding-top:10px;
+            margin-left:0px;
+        }
+        .table{
+            padding-top: 20px;
+            margin-right:0px;
+            text-align: center;
+
+        }
+
+
+        .all{
+            margin-right: 90px;
+            margin-left: 90px;
+            margin-top:30px;
+        }
+
+
+
+        @media screen and (max-width: 700px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</html>

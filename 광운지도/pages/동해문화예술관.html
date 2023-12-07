@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title> 동해문화예술관 </title>
+    </head>
+    <body>
+        <div class="all">
+            <center>
+                <h1 align = "left"> 동해문화예술관 </h1>
+            </center>
+            <hr color=black size="5">
+
+            <div class="container">
+                <div class="img">
+                    <img src="동해문화예술관.jpg" border="3" vspace="20" hspace="20" height="600" width="800" align="left">
+                </div>
+                <div class="table">
+                    <table border="1">
+                        <tr>
+                            <th>관련 학과, 시설</th>
+                            <td>대학 강당</td>
+                        </tr>
+                        <tr>
+                            <th>건물 층수</th>
+                            <td>지하 2층, 지상 4층</td>
+                        </tr>
+                        <tr>
+                            <td>B2F</td>
+                            <td>ICE RINK, 반도체 설계교육센터(IDEC), <br>
+                                창업지원센터</td>
+                        </tr>
+                        <tr>
+                            <td>B1F</td>
+                            <td>학생식당, 교직원식당, <br>
+                                만화 카페, 산학협력단</td>
+                        </tr>
+                        <tr>
+                            <td>1F</td>
+                            <td>언어교육원, 소극장</td>
+                        </tr>
+                        <tr>
+                            <td>2F</td>
+                            <td rowspan="3">대극장</td>
+                        </tr>
+                        <tr>
+                            <td>3F</td>
+                        </tr>
+                        <tr>
+                            <td>4F</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table border="3">
+                        <tr>
+                            <td>이곳에서는 큰 규모의 특별 강좌 혹은 <br>
+                                CDP 등등 이런 저런 행사를 많이 한다.<br><br>
+                                2PM, FT아일랜드, 최강창민, 시아준수 등 <br>
+                                연예인의 팬미팅, 생일파티 장소로 자주 이용되고 있다. 
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <style>
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 0 auto;
+            max-width: 1800px; 
+
+        }
+	    .img img{
+            max-width: 90%;
+            height: auto; 
+            display: block;
+            margin-left:0px;
+	    }
+       
+
+
+        .img, .table{
+            flex-basis: 1; 
+            
+        }
+        .img{
+            padding-top:10px;
+            margin-left:0px;
+        }
+        .table{
+            padding-top: 20px;
+            margin-right:0px;
+            text-align: center;
+
+        }
+
+
+        .all{
+            margin-right: 90px;
+            margin-left: 90px;
+            margin-top:30px;
+        }
+
+
+
+        @media screen and (max-width: 700px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</html>

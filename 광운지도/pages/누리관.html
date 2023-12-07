@@ -1,0 +1,130 @@
+ <!-- 사진필요 -->
+ <html>
+    <head>
+        <title> 누리관 </title>
+    </head>
+    <body>
+        <div class="all">
+            <center>
+                <h1 align = "left"> 누리관 </h1>
+            </center>
+            <hr color=black size="5">
+            <div class="container">    
+                <div class="img">
+                    <img src="누리관.jpg" border="3" vspace="20" hspace="20" height="750" width="750" align="left">
+                </div>
+                <div class="table">
+                    <table border="1">
+                        <tr>
+                            <th>관련 학과, 시설</th>
+                            <td>경영학부, 로봇학부</td>
+                        </tr>
+                        <tr>
+                            <th>건물 층수</th>
+                            <td>지상 5층</td>
+                        </tr>
+                        <tr>
+                            <td>1F</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2F</td>
+                            <td>ROTC사무실</td>
+                        </tr>
+                        <tr>
+                            <td>3F</td>
+                            <td>로봇학부 연구실, 강의실</td>
+                        </tr>
+                        <tr>
+                            <td>4F</td>
+                            <td>경영학부 강의실</td>
+                        </tr>
+                        <tr>
+                            <td>5F</td>
+                            <td>경영학부 교학처, 교수실, 특성화실</td>
+                        </tr>
+                    </table>
+                    <div>
+                        <br>
+                    </div>
+                    <table border="3">
+                        <tr>
+                            <td> 이 곳은 학생 복지 차원으로 편의점이 <br>
+                                입점한 것이라 편의점인데도 대부분의 제품에 <br>
+                                10% 할인이 기본으로 붙어있다. 하지만 일반편의점들과 달리 <br>
+                                심야 영업은 하지 않는다.<br><br>
+                                학교 구석에 위치해있다보니 <br>
+                                그만큼 이용하는 학생 수도 적어서 <br>
+                                강의실 및 세미나실 대관이 어렵지 않고 여유있다.<br><br>
+                                접근 방법은 광운대역 혹은 석계역에서 <br>
+                                도보 12분 정도이며 걷기 힘들거나 싫은 학생들은 석계역에서 <br>
+                                261번 버스를 타거나 국민은행 앞 월계삼거리에서 <br>
+                                아무 버스를 타고 벼루말교에서 <br>
+                                하차하면 된다. <br><br>
+                                서쪽에서 오는 학생들은 <br>
+                                돌곶이역 3번 출구에서 261번 버스를 타고 오면 <br>
+                                석계역에서 타는 것보다 훨씬 쾌적하고 <br>
+                                시간도 조금 절약된다.<br><br>
+                                선배들이 새내기에게 시간표 짤 때 <br>
+                                누참누를 피하라는 말에서 누가 이 누리관이다. <br>
+                                참은 참빛관. 두 건물은 광운대 끝과 끝에 <br>
+                                위치하고 있으므로 수업이 조금만 늦게 끝나도 <br>
+                                지각 피하기 굉장히 힘들어진다.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <style>
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 0 auto;
+            max-width: 1800px; 
+
+        }
+	    .img img{
+            max-width: 90%;
+            height: auto; 
+            display: block;
+            margin-left:0px;
+	    }
+       
+
+
+        .img, .table{
+            flex-basis: 1; 
+            
+        }
+        .img1{
+            padding-top:10px;
+            margin-left:0px;
+        }
+        .table{
+            padding-top: 20px;
+            margin-right:0px;
+            text-align: center;
+
+        }
+
+
+        .all{
+            margin-right: 90px;
+            margin-left: 90px;
+            margin-top:30px;
+        }
+
+
+
+        @media screen and (max-width: 700px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</html>
